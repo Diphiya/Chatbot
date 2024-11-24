@@ -2,11 +2,11 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 from transformers import BertTokenizer
 
-# Download necessary NLTK data
+
 nltk.download('punkt')
 nltk.download('wordnet')
 
-# Initialize lemmatizer
+
 lemmatizer = WordNetLemmatizer()
 
 # Load the tokenizer for the fine-tuned transformer model
