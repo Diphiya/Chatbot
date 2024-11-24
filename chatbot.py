@@ -8,7 +8,6 @@ from sklearn.utils.class_weight import compute_class_weight
 
 train_labels = [0, 1, 2, 3, 4]  
 
-# Correct compute_class_weight call
 # Generate class weights for imbalanced classes
 class_weights = compute_class_weight(
     class_weight='balanced',
